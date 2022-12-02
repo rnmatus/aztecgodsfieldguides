@@ -1,0 +1,742 @@
+h1 {
+    color:black;
+    background-color: #A1B848;
+    height: 780px;
+    background-image: url(background.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Unica One', cursive;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0;
+}
+
+
+h2 {
+  color: #FDF8E1;
+  background-color:#FF7AAB;
+  font-family: 'Unica One', cursive;
+  font-size: 250px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0;
+}
+
+.banner1 {
+    margin: 0;
+    margin-top: 0;
+}
+
+.container1 {
+    background-color: #FDF8E1;
+}
+
+* {
+  box-sizing: border-box
+}
+
+body {
+  background-color: #FDF8E1;
+  font-family: 'Lato', sans-serif
+  -webkit-font-smoothing: antialiased
+ }
+
+ nav {
+    text-align: center;   
+ }
+
+
+ li {
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    color:#FDF8E1;
+    padding: 20px;
+  }
+
+  li a {
+    text-decoration: none;
+    color: #F57D21;
+  }
+
+  li a:hover {
+   color: black;
+  }
+
+
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  
+.band {
+    background-image: url("band.svg");
+    margin-top: 0;
+    height: 130px;
+}
+
+.intro {
+    color: #FDF8E1;
+   background-color:#FDF8E1;
+    width: 100%;
+    padding-left: 40px;
+    align-content: center;
+    padding: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 30px;
+}
+
+.aztecs {
+  font-family: 'Miriam Libre', sans-serif;
+    font-weight: 600;
+    color:#FDF8E1;
+    background-color:#F57D21;
+    width: 100%;
+    padding-left: 40px;
+    align-content: center;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 19px;
+}
+
+.quelzi {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-top: 150px;
+}
+
+.fieldguides {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 70px;
+  padding-bottom: 40px;
+}
+
+.manuscript:hover {
+  animation: shake 0.5s;
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.column:hover {
+  animation: shake 0.5s;
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.decomp:hover {
+  animation: shake 0.5s;
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.quetzalcoatl {
+  margin-top: 40px;
+  position: absolute;
+  justify-content: center;
+}
+
+.gods {
+  padding-top: 40px;;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 40px;
+  background-color: #FDF8E1;
+}
+
+.gods2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 40px;
+  background-color: #FDF8E1;
+  padding-top: 40px;
+}
+
+.gods3 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 40px;
+  background-color: #FDF8E1;
+  padding-top: 40px;
+}
+
+.quetzalcoatl {
+  text-align: center;
+}
+
+
+h4 {
+  color:#FDF8E1;
+  background-color: #F57D21;
+  font-family: 'Unica One', cursive;
+  font-size: 250px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0;
+}
+
+.first {
+  margin: 50px;
+  display: flex;
+  wrap: nowrap;
+}
+
+.ome {
+  width; 30%
+}
+
+.texto1 {
+  padding-top: 90px;
+  width: 70%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color:#FF7AAB;
+  font-family: 'Miriam Libre', sans-serif;
+  text-align: center;
+}
+
+.second {
+  margin: 50px;
+  display: flex;
+  wrap: nowrap;
+}
+
+.quetzal {
+  width; 30%;
+  margin-left: 40px;
+}
+
+.texto2 {
+  padding-top: 90px;
+  width: 70%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color:#FF7AAB;
+  font-family: 'Miriam Libre', sans-serif;
+  text-align: center;
+}
+
+.page {
+  margin: 40px;
+}
+
+.tezca {
+  width; 30%
+}
+
+.texto3 {
+  padding-top: 90px;
+  width: 70%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color:#FF7AAB;
+  font-family: 'Miriam Libre', sans-serif;
+  text-align: center;
+}
+
+.third {
+  margin: 50px;
+  display: flex;
+  wrap: nowrap;
+}
+
+.fourth {
+  margin: 50px;
+  display: flex;
+  wrap: nowrap;
+}
+
+.huitz {
+  padding-top: 20px;
+  width; 30%;
+}
+
+.texto4 {
+  padding-top: 90px;
+  width: 70%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color:#FF7AAB;
+  font-family: 'Miriam Libre', sans-serif;
+  text-align: center;
+}
+
+.xipe {
+  width; 30%
+}
+
+.texto5 {
+  padding-top: 90px;
+  width: 70%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color:#FF7AAB;
+  font-family: 'Miriam Libre', sans-serif;
+  text-align: center;
+}
+
+.fifth {
+  margin: 50px;
+  display: flex;
+  wrap: nowrap;
+}
+
+.top5 {
+  display: flex;
+  wrap: nowrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.uno {
+  width: 20%;
+}
+
+.dos {
+  width: 20%;
+}
+
+.tres {
+  width: 20%;
+}
+
+.cuatro {
+  width: 20%;
+}
+
+.cinco {
+  width: 20%;
+}
+
+.uno:hover {
+  animation: shake 0.5s;
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(2px, 2px) rotate(0deg); }
+  10% { transform: translate(-2px, -3px) rotate(-8deg); }
+  20% { transform: translate(-4px, 0px) rotate(8deg); }
+  30% { transform: translate(4px, 3px) rotate(0deg); }
+  40% { transform: translate(2px, -2px) rotate(8deg); }
+  50% { transform: translate(-2px, 3px) rotate(-8deg); }
+  60% { transform: translate(-4px, 2px) rotate(0deg); }
+  70% { transform: translate(4px, 3px) rotate(-8deg); }
+  80% { transform: translate(-2px, -2px) rotate(8deg); }
+  90% { transform: translate(2px, 3px) rotate(0deg); }
+  100% { transform: translate(2px, -3px) rotate(-8deg); }
+}
+
+.dos:hover {
+  animation: shake 0.5s;
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(2px, 2px) rotate(0deg); }
+  10% { transform: translate(-2px, -3px) rotate(-8deg); }
+  20% { transform: translate(-4px, 0px) rotate(8deg); }
+  30% { transform: translate(4px, 3px) rotate(0deg); }
+  40% { transform: translate(2px, -2px) rotate(8deg); }
+  50% { transform: translate(-2px, 3px) rotate(-8deg); }
+  60% { transform: translate(-4px, 2px) rotate(0deg); }
+  70% { transform: translate(4px, 3px) rotate(-8deg); }
+  80% { transform: translate(-2px, -2px) rotate(8deg); }
+  90% { transform: translate(2px, 3px) rotate(0deg); }
+  100% { transform: translate(2px, -3px) rotate(-8deg); }
+}
+
+.tres:hover {
+  animation: shake 0.5s;
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(2px, 2px) rotate(0deg); }
+  10% { transform: translate(-2px, -3px) rotate(-8deg); }
+  20% { transform: translate(-4px, 0px) rotate(8deg); }
+  30% { transform: translate(4px, 3px) rotate(0deg); }
+  40% { transform: translate(2px, -2px) rotate(8deg); }
+  50% { transform: translate(-2px, 3px) rotate(-8deg); }
+  60% { transform: translate(-4px, 2px) rotate(0deg); }
+  70% { transform: translate(4px, 3px) rotate(-8deg); }
+  80% { transform: translate(-2px, -2px) rotate(8deg); }
+  90% { transform: translate(2px, 3px) rotate(0deg); }
+  100% { transform: translate(2px, -3px) rotate(-8deg); }
+}
+
+.cuatro:hover {
+  animation: shake 0.5s;
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(2px, 2px) rotate(0deg); }
+  10% { transform: translate(-2px, -3px) rotate(-8deg); }
+  20% { transform: translate(-4px, 0px) rotate(8deg); }
+  30% { transform: translate(4px, 3px) rotate(0deg); }
+  40% { transform: translate(2px, -2px) rotate(8deg); }
+  50% { transform: translate(-2px, 3px) rotate(-8deg); }
+  60% { transform: translate(-4px, 2px) rotate(0deg); }
+  70% { transform: translate(4px, 3px) rotate(-8deg); }
+  80% { transform: translate(-2px, -2px) rotate(8deg); }
+  90% { transform: translate(2px, 3px) rotate(0deg); }
+  100% { transform: translate(2px, -3px) rotate(-8deg); }
+}
+
+.cinco:hover {
+  animation: shake 0.5s;
+
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(2px, 2px) rotate(0deg); }
+  10% { transform: translate(-2px, -3px) rotate(-8deg); }
+  20% { transform: translate(-4px, 0px) rotate(8deg); }
+  30% { transform: translate(4px, 3px) rotate(0deg); }
+  40% { transform: translate(2px, -2px) rotate(8deg); }
+  50% { transform: translate(-2px, 3px) rotate(-8deg); }
+  60% { transform: translate(-4px, 2px) rotate(0deg); }
+  70% { transform: translate(4px, 3px) rotate(-8deg); }
+  80% { transform: translate(-2px, -2px) rotate(8deg); }
+  90% { transform: translate(2px, 3px) rotate(0deg); }
+  100% { transform: translate(2px, -3px) rotate(-8deg); }
+}
+
+h3 {
+  color: black;
+  background-color:#FF7AAB;
+  background-image: url(origin.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;;
+  font-family: 'Unica One', cursive;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0;
+}
+
+.origen {
+  color: #FDF8E1;
+ background-color:#FDF8E1;
+  width: 100%;
+  padding-left: 40px;
+  align-content: center;
+  padding: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 30px;
+}
+
+.start {
+  font-family: 'Miriam Libre', sans-serif;
+  font-weight: 600;
+  color:#FDF8E1;
+  background-color:#F57D21;
+  width: 100%;
+  padding-left: 40px;
+  align-content: center;
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 19px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+footer {
+   background-color:#FDF8E1;
+   color:#FF7AAB;
+   background-color: #FF7AAB;
+   text-align: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-top: 40px;
+
+}
+
+h5 {
+  color: black;
+  background-color:#FF7AAB;
+  background-image: url(gods.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;;
+  font-family: 'Unica One', cursive;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0;
+}
+
+h6 {
+  color: black;
+  background-color:#FF7AAB;
+  background-image: url(rituals.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;;
+  font-family: 'Unica One', cursive;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0;
+}
+
+.ritos {
+    font-family: 'Miriam Libre', sans-serif;
+    font-weight: 600;
+    color:#FDF8E1;
+    background-color: #FF7AAB;
+    width: 100%;
+    padding-left: 40px;
+    align-content: center;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 19px;
+}
+
+.rit1 {
+  color: #FDF8E1;
+ background-color:#FDF8E1;
+  width: 100%;
+  padding-left: 40px;
+  align-content: center;
+  padding: 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 30px;
+}
+
+h7 {
+  font-size: 22px;
+  font-weight: 800;
+  font-family: 'Miriam Libre', sans-serif;
+  color: #FF7AAB;
+  text-align: center;
+  padding-bottom: 35px;
+}
+
+.rit2 {
+  display: flex;
+  wrap: nowrap;
+  justify-content: center;
+  gap: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+.toxcatl {
+  padding-top: 90px;
+  width: 40%;
+  font-size: 16px;
+  color: black;
+  font-family: 'Miriam Libre', sans-serif;
+  text-align: left;
+  text-align: center;
+}
+
+.huitz1 {
+  padding-top: 90px;
+  width: 40%;
+  font-size: 16px;
+  color: black;
+  font-family: 'Miriam Libre', sans-serif;
+  text-align: left;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.culture {
+  color: black;
+  background-color:#FF7AAB;
+  background-image: url(current.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;;
+  font-family: 'Unica One', cursive;
+  font-size: 100px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0;
+}
+
+.sun {
+  display: flex;
+  justify-content: center;
+}
+
+.godstitle {
+  font-family: 'Miriam Libre', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  color: black;
+  padding-bottom: 13px;
+}
+
+.underworld {
+  display: flex;
+  justify-content: center;
+  color: #FDF8E1;
+ background-color:#FDF8E1;
+  width: 100%;
+  padding-left: 40px;
+  padding-top: 85px;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 30px;
+}
+
+.band3 {
+  display: flex;
+  wrap: nowrap;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.cult {
+  display: flex;
+  wrap: nowrap;
+  gap: 10%;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-bottom: 60px;
+}
+
+.priests {
+  width:30%;
+  font-size: 15px;
+  font-family: 'Miriam Libre', sans-serif;
+}
+
+.architecture {
+  width: 30%;
+  font-size: 15px;
+  font-family: 'Miriam Libre', sans-serif;
+}
+
+
+.calendar {
+  width: 30%;
+  font-size:15px;
+ font-family: 'Miriam Libre', sans-serif;
+}
+
+h9 {
+  font-size: 25px;
+  font-family: 'Unica One', cursive;
+  color:black; 
+}
+
+.copyright {
+  font-family: 'Miriam Libre', sans-serif;
+  font-size: 12px;
+  color:#FDF8E1;
+}
+
+.nahuatl {
+  font-family: 'Miriam Libre', sans-serif;
+    font-weight: 600;
+    color:#FDF8E1;
+    background-color:#F57D21;
+    width: 100%;
+    padding-left: 40px;
+    align-content: center;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 19px;
+}
+
+.audio {
+  padding-top: 30px;
+}
